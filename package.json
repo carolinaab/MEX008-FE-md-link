@@ -1,4 +1,31 @@
 {
   "name": "md-links",
-  "version": "0.1.0"
+  "version": "1.0.0",
+  "description": "analizar archivos Markdown, verificar si cuentan con links y repotar estadísticas ",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carolinaab/MEX008-FE-md-link.git"
+  },
+  "author": "Carolina Mendez <tau_karo@hotmail.com>",
+  "license": "ISC",
+  "bin":{
+
+  },
+  "scrips" :{
+     "mdlinks" : "./index.js"
+  },
+  "dependencies": { 
+   "node-fetch" :"2.6.0"
+  },
+  "bugs": {
+    "url": "https://github.com/carolinaab/MEX008-FE-md-link/issues"
+  },
+  "homepage": "https://github.com/carolinaab/MEX008-FE-md-link#readme"
 }

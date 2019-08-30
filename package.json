@@ -15,14 +15,12 @@
   },
   "author": "Carolina Mendez <tau_karo@hotmail.com>",
   "license": "ISC",
-  "bin":{
-
+  "bin": {},
+  "scrips": {
+    "mdlinks": "./index.js"
   },
-  "scrips" :{
-     "mdlinks" : "./index.js"
-  },
-  "dependencies": { 
-   "node-fetch" :"2.6.0"
+  "dependencies": {
+    "node-fetch": "2.6.0"
   },
   "bugs": {
     "url": "https://github.com/carolinaab/MEX008-FE-md-link/issues"

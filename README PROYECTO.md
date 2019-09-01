@@ -8,16 +8,41 @@ El proposito de este proyecto es crear una herramienta usando [Node.js](https://
 
 
 # Instalación
-
+$ npm install --global carolinaab/md-links
 
 
 # Uso
 
+const mdLinks = require("md-links");
 
+// Caso 1 .- Ruta relativa sin options
+mdLinks("./some/example.md")
+  .then(links => {
+    // => [{ href, text, file }]
+  })
+  .catch(console.error);
+
+// Caso  .- Ruta relativa con option (validate)
+mdLinks("./some/example.md", { validate: true })
+  .then(links => {
+    // => [{ href, text, file, status, ok }]
+  })
+  .catch(console.error);
+
+// Caso 3 .- Ruta relativa de un directorio sin options
+mdLinks("./some/dir")
+  .then(links => {
+    // => [{ href, text, file }]
+  })
+  .catch(console.error);
+
+//PD: Pueden presentarse más casos.
 # Versión
 1.0.0
 # Documentación Utilizada
-
+* [node.js documentation](https://nodejs.org/es/docs/)
+* [File Sistem](https://nodejs.org/api/fs.html)
+* [Nodejs Curso Desde Cero, para principiantes](https://youtu.be/BhvLIzVL8_o)
 
 # Planificación
 Para este proyecto se utiliza issues y milestones 

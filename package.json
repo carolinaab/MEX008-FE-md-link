@@ -7,7 +7,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "test"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -28,5 +28,8 @@
   "bugs": {
     "url": "https://github.com/carolinaab/MEX008-FE-md-link/issues"
   },
-  "homepage": "https://github.com/carolinaab/MEX008-FE-md-link#readme"
+  "homepage": "https://github.com/carolinaab/MEX008-FE-md-link#readme",
+  "devDependencies": {
+    "jest": "^24.9.0"
+  }
 }

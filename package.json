@@ -16,7 +16,7 @@
   "author": "Carolina Mendez <tau_karo@hotmail.com>",
   "license": "ISC",
   "bin": {
-    "say-hello": "./cli.js"
+    "mdlink": "./cli.js"
   },
   "scrips": {
     "mdlinks": "./index.js"

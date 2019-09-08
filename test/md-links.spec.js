@@ -10,13 +10,21 @@
 // });
 
 
-const readfile = require('../modulos/readfile.js');
+const readFile = require('../lib/readfile');
 
 
-describe('readfile', () => {
 
+
+
+
+describe('readFile', () => {
   it('debería ser una función', () => {
-    expect(typeof readfile).toBe('function')
+    expect(typeof readFile).toBe('function');
+  });
+  it('debería retornar un texto', () => {
+    return readFile('./pruebas.md').then(value => {
+      expect(typeof value).toBe('string');
+    });
   });
 
-});
+})

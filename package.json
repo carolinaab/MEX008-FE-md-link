@@ -1,5 +1,5 @@
 {
-  "name": "md-links",
+  "name": "carolinaab-md-links",
   "version": "1.0.0",
   "description": "analizar archivos Markdown, verificar si cuentan con links y repotar estadísticas ",
   "main": "index.js",
